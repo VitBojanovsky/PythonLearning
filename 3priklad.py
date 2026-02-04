@@ -1,0 +1,6 @@
+print("Zadejte cenu knihy: ")
+cena = float(input())
+print(f"zadejte kolik % cinni sleva:")
+sleva = float(input())
+cena_sleva = cena - (cena * (sleva / 100))
+print(f"Cena po slevě je: {cena_sleva} Kč\nPuvodni cena byla: {cena} Kč\nSleva činnila: {sleva} %\nUšetřil jsi: {cena - cena_sleva} Kč")
