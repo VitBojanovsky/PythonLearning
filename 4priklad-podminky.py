@@ -1,7 +1,11 @@
 print("Zadej okolni teplotu v Celsiich: ")
 teplota = float(input())
 if(teplota<0):
-    print("Je pod nulou, venku je zima.")
+    if(teplota< -15):
+        print("Je extremne zima, venku hrozi omrzliny.")
+    else:
+        print("Je pod nulou, venku je zima.")
+
 elif(teplota>=0 and teplota<=15):
     print("Je chladno.")
 elif(teplota>15 and teplota<=25):
