@@ -1,3 +1,4 @@
+'''''
 print("Zadej okolni teplotu v Celsiich: ")
 teplota = float(input())
 if(teplota<0):
@@ -12,3 +13,18 @@ elif(teplota>15 and teplota<=25):
     print("Je prijemne.")
 elif(teplota>25):
     print("Je horko.")
+'''''
+
+print("Zadejte cislo: ")
+cislo = float(input())
+'''''
+if(cislo<10):
+    print("cislo je jednociferne")
+elif(cislo>=10 and cislo<100):
+    print("cislo je dvojciferne")
+elif(cislo>=100 and cislo<1000):
+    print("cislo je trojciferne")
+'''''
+cislo_str = str(cislo)
+pocet_cifer = len(cislo_str)
+print(f"cislo ma {pocet_cifer-2} cifer")
