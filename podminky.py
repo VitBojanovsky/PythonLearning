@@ -28,7 +28,7 @@ else:
 if(not zakazano):
     print("Jaka je vase vyska v cm: ");
     vyska = input();
-    if(int(vyska)<87):
+    if(int(vyska)<=87):
         print("Jste moc zakrsli na toto atrakci");
         zakazano = True;
 if(not zakazano):
@@ -44,3 +44,5 @@ if(not zakazano):
 
 if(not zakazano):
     print("Vase cena je " + str(cena) + " kc");
+    print("Nezabijte se");
+exit(0);
