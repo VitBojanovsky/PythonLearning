@@ -15,4 +15,3 @@ while True:
         print("Hesla nesouhlasi")
 print("Heslo bylo uspesne nastaveno")
 print(f"Vase nove heslo je: {heslo1}")
-
