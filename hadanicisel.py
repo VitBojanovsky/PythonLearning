@@ -5,9 +5,10 @@ i=3;
 print(f"hadej nahodne cislo mezi 1 a 10: ");
 print("Vyber si pocet pokusu: ");
 i=int(input());
-guess = input();
 uhodl = False;
 for x in range(0,i):
+    print("Zadej hadani: ");
+    guess = input();
     if(int(guess) == nahodne):
         print(f"Uhodl jsi cislo na {x+1} pokus!");
         uhodl=True;
