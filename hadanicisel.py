@@ -19,3 +19,4 @@ for x in range(0,i):
         print("Hledane cislo je mensi nez tvoje hadani");
 if(not uhodl):
     print("Neuhodl jsi cislo, treba priste");
+print("cau");
