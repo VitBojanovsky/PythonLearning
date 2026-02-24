@@ -9,7 +9,6 @@ soucet = 0;
 pocet = 0;
 prumer = 0.0;
 
-
 for i in range(zacatek,konec,krok):
     print(i);
     soucet += i;
