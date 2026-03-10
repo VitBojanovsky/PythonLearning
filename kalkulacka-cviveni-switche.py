@@ -38,4 +38,3 @@ match operator:
     case _:
         print("error")
 print(vysledek)
-
