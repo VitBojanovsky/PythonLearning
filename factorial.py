@@ -1,4 +1,6 @@
 from math import factorial
+import sys
+sys.set_int_max_str_digits(479001600)
 '''
 def absolutni_hodnota(n):
     return abs(int(n))
