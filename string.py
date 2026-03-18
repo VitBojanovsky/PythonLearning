@@ -6,7 +6,7 @@ specialni_znaky = False
 bezpecnost = 0
 if(delka>8):
     bezpecnost = bezpecnost + 1
-if(heslo.islower()):
+if(heslo.islower() or heslo.isupper()):
     male = True
 else:
     bezpecnost = bezpecnost + 1
