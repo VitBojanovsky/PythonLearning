@@ -29,5 +29,3 @@ while i >= stop:
 i = start;
 for i in range(start,stop,-jump):
     print(i);
-
-
