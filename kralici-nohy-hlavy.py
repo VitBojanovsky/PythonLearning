@@ -16,11 +16,11 @@ while True:
         break
 hlavy = 0
 nohy = 0
-while(slepice>0):
-    nohy = nohy+2
+while slepice > 0:
+    nohy = nohy + 2
     hlavy = hlavy + 1
-    slepice = slepice - 1 
-while(kralici>0):
+    slepice = slepice - 1
+while kralici > 0:
     nohy = nohy + 4
     hlavy = hlavy + 1
     kralici = kralici - 1
@@ -28,19 +28,18 @@ while(kralici>0):
 print(f"hlavy = {hlavy}")
 print(f"nohy = {nohy}")
 
-#opacne 
+# opacne
 kralici_c = nohy / 4
-b = nohy - kralici_c *4
-slepice_c = b/2
+b = nohy - kralici_c * 4
+slepice_c = b / 2
 while True:
-    if(kralici_c + slepice_c ) < hlavy:
-        kralici_c = kralici_c -1
+    if (kralici_c + slepice_c) < hlavy:
+        kralici_c = kralici_c - 1
         slepice_c = slepice_c + 2
-    if(kralici_c + slepice_c ) > hlavy:
+    if (kralici_c + slepice_c) > hlavy:
         kralici_c = kralici_c + 1
         slepice_c = slepice_c - 2
-    if(kralici_c + slepice_c ) == hlavy:
-        break   
+    if (kralici_c + slepice_c) == hlavy:
+        break
 print(f"Vypocitani kralici = {kralici_c}")
 print(f"vypocitane slepice = {slepice_c}")
-
